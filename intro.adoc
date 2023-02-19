@@ -152,11 +152,11 @@ Que connaissez-vous comme vérifications automatisées de la qualité de code ?
 
 [%step]
 * tests automatisés
-** en contrôlant la couverture de code : `pytest-cov`
-** en contrôlant la conso mémoire : `memray`
+** en contrôlant la couverture de code
+** en contrôlant la conso mémoire
 * analyse statique de code
-** respect de formatage : `isort`, `black`, `yapf`
-** détection d'antipatterns : `pylint`, `flake8`, `ruff`, `perflint`
+** respect de formatage
+** détection d'antipatterns
 
 [.notes]
 --

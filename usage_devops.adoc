@@ -1,13 +1,7 @@
 :toc:
 
-= Autres cas d'application
+= Cas d'applications
 
-Y a-t-il des (gens ayant des pratiques) devops dans la salle ?
-
-[.notes]
---
-Pas encore tout le monde ... c'est pas grave, vous y viendrez !
---
 
 [.columns]
 == À quoi peut servir pre-commit ?
@@ -32,6 +26,14 @@ Pas encore tout le monde ... c'est pas grave, vous y viendrez !
 * check-yaml
 * ...
 --
+
+== Eat your own dog food
+
+[source,yaml]
+--
+include::.pre-commit-config.yaml[]
+--
+
 
 == Hook Custom
 
