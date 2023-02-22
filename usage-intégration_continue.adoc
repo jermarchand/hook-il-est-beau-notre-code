@@ -10,12 +10,12 @@ git commit --no-verify -m "🥷 ahahaha !"
 
 -> lancer les hooks dans l'intégration continue aussi
 
-== Étape de lint dans l'intégration continue 1/2
+== Étape dans l'intégration continue 1/2
 
-Pre-commit repose sur git :
+Sur le serveur qui lance les jobs
 
-* installer git sur le serveur qui lance le job de lint
-* initialisation minimale git du projet
+* installer `git`
+* initialer `pre-commit`
 
 [source,bash]
 ----
@@ -23,11 +23,11 @@ apt-get install --no-install-recommends -y git
 cd my-project
 git init .
 git add -A
-poetry run pre-commit run --all-files
+pre-commit run --all-files
 ----
 
 
-== Étape de lint dans l'intégration continue 2/2
+== Étape dans l'intégration continue 2/2
 
 Ou avec Docker
 
@@ -35,3 +35,19 @@ Ou avec Docker
 --
 docker run --rm -v $(pwd):/data fxinnovation/pre-commit run -a
 --
+
+
+== Pre-commit et Terraform
+
+Certains check peuvent nécessiter des binaires.
+
+* terraform
+* terraform_docs
+* terraform_tflint
+* terraform_tfsec / terrascan
+* ...
+
+
+[%step]
+
+https://github.com/antonbabenko/pre-commit-terraform

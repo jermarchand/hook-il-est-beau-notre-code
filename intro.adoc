@@ -78,7 +78,7 @@ L'objectif d'une relecture est de valider que le code rende le service métier a
 +++ homogénéité
 ++++ de style
 +++++ formatage
-+++++ docstring
++++++ doc
 ++++ de (bonnes) pratiques
 +++ intégration facile
 ++++ de nouvelles personnes
@@ -88,7 +88,7 @@ L'objectif d'une relecture est de valider que le code rende le service métier a
 
 [.notes]
 --
-* de style : formatage, docstring
+* de style : formatage, doc
 * bonnes pratiques : erreurs courantes comme des pb d'encodage non spécifiés, détection d'anti-patterns, documentation manquante de modules ou de fonctions
 * nouvelle personne : ou vous dans 3 mois
 --
@@ -103,7 +103,7 @@ L'objectif d'une relecture est de valider que le code rende le service métier a
 --- homogénéité
 ---- de style
 ----- formatage
------ docstring
+----- doc
 ---- de (bonnes) pratiques
 --- intégration facile
 ---- de nouvelles personnes
@@ -180,12 +180,12 @@ Conditionne une action git "classique" à la bonne exécution d'un script.
 ----
 super-projet
   ├─ .git
-  │  └─ hooks/
-  │     ├─ commit-msg.sample
-  │     ├─ pre-commit.sample 👀
-  │     ├─ pre-push.sample
-  │     ├─ pre-receive.sample
-  │     └─ ...
+  │  └─ hooks/
+  │     ├─ commit-msg.sample
+  │     ├─ pre-commit.sample 👀
+  │     ├─ pre-push.sample
+  │     ├─ pre-receive.sample
+  │     └─ ...
 ----
 
 
@@ -217,7 +217,7 @@ cd super-projet
 git init -b main
 git config ...
 
-git touch test
+touch test
 git add test
 git status
 git commit -m "🎉"

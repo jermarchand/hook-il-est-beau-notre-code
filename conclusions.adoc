@@ -2,14 +2,8 @@
 
 = Conclusions
 
-image::assets/Pensieve_merged_black-blueish.png[]
+Outil à adopter pour une meilleur qualité de code et de vie.
 
-À ramener dans votre pensine...
-
-[.notes]
---
-TODO : à finir par Luc et Jérôme
---
 
 [%notitle]
 == Ce que nous avons vu
