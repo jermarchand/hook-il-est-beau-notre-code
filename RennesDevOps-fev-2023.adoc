@@ -1,0 +1,29 @@
+:revealjs_customtheme: assets/hook_il_est_beau_notre_code.css
+:revealjs_progress: true
+:revealjs_slideNumber: true
+:source-highlighter: highlightjs
+:icons: font
+:toc:
+
+= git-precommit as code
+
+== Rennes DevOps - Fev 2023
+
+[.small]
+*Jérôme Marchand* (icon:twitter[]@Neken13 )
+
+
+[.small]
+Mardi 19 février 2023
+
+
+// Includes
+include::intro.adoc[leveloffset=1]
+
+include::pre-commit.adoc[leveloffset=1]
+
+include::usage_devops.adoc[leveloffset=1]
+
+include::usage-intégration_continue.adoc[leveloffset=1]
+
+include::conclusions.adoc[leveloffset=1]

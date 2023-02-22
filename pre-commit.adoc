@@ -12,8 +12,8 @@ image::assets/pre-commit-logo.png[title="https://pre-commit.com/"]
 _A framework for managing and maintaining multi-language pre-commit hooks._
 
 * open-source (MIT license)
-* 9.1k ⭐
-* 84 releases
+* 9.8k ⭐
+* 91 releases
 --
 
 == Tambouille-as-code
