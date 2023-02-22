@@ -1,3 +1,15 @@
+# Hook' il est beau notre code
+
+## History
+
+Vous trouverez dans ce repo git, les sources des slides de du Meetups :
+
+* https://www.meetup.com/fr-FR/python-rennes/events/289052290/["Hook'il est beau, notre code !"] au Meetup Python (2022/11/07)
+* https://www.meetup.com/fr-FR/rennes-devops/events/291602889/["git-precommit as code"] au Meetup RennesDevOps (2023/02/21)
+
+
+## Les slides
+
 La présentation a été écrite pour être visualisée à travers l'extension https://marketplace.visualstudio.com/items?itemName=flobilosaurus.vscode-asciidoc-slides[flobilosaurus.vscode-asciidoc-slides] pour Codium / vsCode.
 
 . affichez la palette de commandes avec `ctrl shift p`
@@ -14,5 +26,3 @@ ou :
 . ouvrir la présentation dans le navigateur chromium / chrome
 . rajouter ?print-pdf à la fin de l'URL
 . lancer l'impression en pdf avec `ctrl p` ou `cmd p`
-
-Un export pdf est disponible dans ce repo : link:2022.11.07-hook_il_est_beau_notre_code.pdf[2022.11.07-hook_il_est_beau_notre_code.pdf] (session présentée lors du meetup Python Rennes du lundi 7 novembre 2022).
